@@ -6,26 +6,40 @@
     align-items: center;
     &__left{
         font-size: 30px;
-        align-items: center;
         &-home{
-            color: red;
+            color: grey;
             margin-right: 10px;
-            align-items: center;
             text-decoration: none;
-        }
-        &-home:visited,&-home:hover,&-home:active{
-            color: red;
-            text-decoration: none;
+            &:hover {
+                color: darkgrey;
+            }
+            &:visited{
+                text-decoration: none;
+            }
         }
         &-portfolio{
+            color: grey;
             margin-right: 10px;
+            &:hover {
+                color: darkgrey;
+            }
+            &:visited{
+                text-decoration: none;
+            }
         }
         &-about{
+            color: grey;
             margin-right: 10px;
+            &:hover {
+                color: darkgrey;
+            }
         }
         &-contact{
+            color: grey;
             margin-right: 10px;
-            color: red;
+            &:hover {
+                color: darkgrey;
+            }
         }
     }
     &__center{

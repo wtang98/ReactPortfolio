@@ -7,27 +7,41 @@
 }
 .header__left {
   font-size: 30px;
-  align-items: center;
 }
 .header__left-home {
-  color: red;
+  color: grey;
   margin-right: 10px;
-  align-items: center;
   text-decoration: none;
 }
-.header__left-home:visited, .header__left-home:hover, .header__left-home:active {
-  color: red;
+.header__left-home:hover {
+  color: darkgrey;
+}
+.header__left-home:visited {
   text-decoration: none;
 }
 .header__left-portfolio {
+  color: grey;
   margin-right: 10px;
+}
+.header__left-portfolio:hover {
+  color: darkgrey;
+}
+.header__left-portfolio:visited {
+  text-decoration: none;
 }
 .header__left-about {
+  color: grey;
   margin-right: 10px;
 }
+.header__left-about:hover {
+  color: darkgrey;
+}
 .header__left-contact {
+  color: grey;
   margin-right: 10px;
-  color: red;
+}
+.header__left-contact:hover {
+  color: darkgrey;
 }
 .header__center {
   align-items: center;
