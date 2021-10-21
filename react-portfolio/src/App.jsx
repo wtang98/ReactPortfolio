@@ -7,20 +7,23 @@ import Portfolio from './pages/portfolio/portfolio';
 function App() {
 	return (
 		<div className="App">
-			<Router>
-				<Switch>
-					<Route path="/portfolio">
-						<Portfolio/>
-					</Route>
+			<div className="App__content">
+				<Router>
+					<Switch>
+						<Route path="/portfolio">
+							<Portfolio/>
+						</Route>
 
-					<Route path="/">
-						<Home/>
-					</Route>
-					
-					
+						<Route path="/">
+							<Home/>
+						</Route>
+						
+						
 
-				</Switch>
-			</Router>
+					</Switch>
+				</Router>
+				
+			</div>
 		</div>
 	);
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import './header.css'
+import { FaHome, FaBriefcase, FaMailBulk, FaInfoCircle } from 'react-icons/fa';
+
 const Header = (props) => {
 
     const {title} = props;
@@ -7,11 +9,10 @@ const Header = (props) => {
     return (
         <div className="header d-flex ">
             <div className="header__left">
-                <i class="fas fa-home"></i>
-                <i class="fas fa-briefcase"></i>
-                <i class="fas fa-address-card"></i>
-                <i class="fas fa-mail-bulk"></i>
-                a
+                <FaHome/>
+                <FaBriefcase/>
+                <FaMailBulk/>
+                <FaInfoCircle/>
             </div>
 
             <div className="header__center">

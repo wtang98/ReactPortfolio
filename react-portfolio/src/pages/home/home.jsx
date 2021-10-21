@@ -3,8 +3,11 @@ import Header from '../../components/header/header'
 
 const home = () => {
     return (
-        <div>
+        <div className="home">
             <Header title ={"Home"}/>
+            <div className="home__content">
+                a
+            </div>
         </div>
     )
 }
