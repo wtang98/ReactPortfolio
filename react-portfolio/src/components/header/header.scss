@@ -1,17 +1,37 @@
 .header{
-    border: 1px solid black;
-    width: 75%;
-    margin-left: 12.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     &__left{
-        border: 1px solid black;
+        font-size: 30px;
+        align-items: center;
+        &-home{
+            color: red;
+            margin-right: 10px;
+            align-items: center;
+            text-decoration: none;
+        }
+        &-home:visited,&-home:hover,&-home:active{
+            color: red;
+            text-decoration: none;
+        }
+        &-portfolio{
+            margin-right: 10px;
+        }
+        &-about{
+            margin-right: 10px;
+        }
+        &-contact{
+            margin-right: 10px;
+            color: red;
+        }
     }
     &__center{
-        border: 1px solid black;
+        align-items: center;
     }
     &__right{
-        border: 1px solid black;
+
     }
 }
