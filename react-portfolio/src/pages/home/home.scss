@@ -1,0 +1,60 @@
+@import '../../components/assets/assets.scss';
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.home{
+    height: 100%;
+    &__content{
+        height: 94.213%;
+        font-family: $font-primary;
+        font-size: 24px;
+        text-align: center;
+        &-landing{
+            position: absolute;
+            top:40%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            width: 50%;
+            .title{
+                text-align: center;
+            }
+            .text-wrapper{
+                .text1{
+                    opacity: 0;
+                    animation: an1 6s infinite;
+                    position: absolute;
+                    text-align: center;
+                }
+                .text2{
+                    opacity: 0;
+                    animation: an2 6s infinite;
+                    position: absolute;
+                    text-align: center;
+                }
+                .text3{
+                    opacity: 0;
+                    animation: an3 6s infinite;
+                    position: absolute;
+                    text-align: center;
+                }
+                @keyframes an1 {
+                    0%{ opacity: 0;}
+                    20%{ opacity: 1;}
+                    30%{ opacity: 0;}
+                }
+                @keyframes an2 {
+                    30%{ opacity: 0;}
+                    45%{ opacity: 1;}
+                    60%{ opacity: 0;}
+                }
+                @keyframes an3 {
+                    60%{ opacity: 0;}
+                    75%{ opacity: 1;}
+                    90%{ opacity: 0;}
+                }
+            }
+        }
+    }
+}

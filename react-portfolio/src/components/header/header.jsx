@@ -9,8 +9,9 @@ const Header = (props) => {
 
     return (
         <div className="header">
-            <div className="header__left d-flex">
-                <div className="header__left-container d-flex justify-content-center">
+
+            <div className="header__left">
+                <div className="header__left-container d-flex align-items-center ">
                     <Link to ="/">
                         <div className="header__left-home">
                             <FaHome/>
@@ -21,12 +22,16 @@ const Header = (props) => {
                             <FaBriefcase/>
                         </div >
                     </Link>
-                    <div className="header__left-contact ">
-                        <FaMailBulk/>
-                    </div>
-                    <div className="header__left-about">
-                        <FaInfoCircle/>
-                    </div>
+                    <Link to="/contact">
+                        <div className="header__left-contact ">
+                            <FaMailBulk/>
+                        </div>
+                    </Link>
+                    <Link to="/about">
+                        <div className="header__left-about">
+                            <FaInfoCircle/>
+                        </div>
+                    </Link>
                 </div>
             </div>
 
@@ -39,6 +44,7 @@ const Header = (props) => {
             <div className= "header__right d-flex justify-content-end">
                 a
             </div>
+
         </div>
     )
 }

@@ -1,11 +1,17 @@
+@import './components/assets/assets.scss';
+
+*{
+	margin: 0;
+	padding: 0;
+}
 .App {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	&__content{
-		
 		width: 75%;
+		// height: 94%;
 	}
 }
 
