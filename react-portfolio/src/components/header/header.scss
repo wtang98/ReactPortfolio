@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    margin-bottom: 15px;
     &__left{
         font-size: 30px;
         padding-bottom: 6px;
