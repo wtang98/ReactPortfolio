@@ -5,6 +5,10 @@ const contact = () => {
     return (
         <div>
             <Header title = {"Contact Me"}/>
+            <div className="Contact">
+                
+
+            </div>
         </div>
     )
 }
