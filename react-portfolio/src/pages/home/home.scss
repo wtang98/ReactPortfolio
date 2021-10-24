@@ -12,28 +12,26 @@
         font-size: 24px;
         text-align: center;
         &-landing{
-            position: absolute;
-            top:40%;
-            left:50%;
-            transform: translate(-50%, -50%);
             width: 50%;
             .title{
                 text-align: center;
             }
             .text-wrapper{
                 .text1{
+                    font-size: 32px;
                     opacity: 0;
                     animation: an1 6s infinite;
-                    position: absolute;
                     text-align: center;
                 }
                 .text2{
+                    font-size: 32px;
                     opacity: 0;
                     animation: an2 6s infinite;
                     position: absolute;
                     text-align: center;
                 }
                 .text3{
+                    font-size: 32px;
                     opacity: 0;
                     animation: an3 6s infinite;
                     position: absolute;
@@ -54,6 +52,9 @@
                     75%{ opacity: 1;}
                     90%{ opacity: 0;}
                 }
+            }
+            .end{
+                text-align: center;
             }
         }
     }

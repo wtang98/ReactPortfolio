@@ -14,28 +14,26 @@
   text-align: center;
 }
 .home__content-landing {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 50%;
 }
 .home__content-landing .title {
   text-align: center;
 }
 .home__content-landing .text-wrapper .text1 {
+  font-size: 32px;
   opacity: 0;
   animation: an1 6s infinite;
-  position: absolute;
   text-align: center;
 }
 .home__content-landing .text-wrapper .text2 {
+  font-size: 32px;
   opacity: 0;
   animation: an2 6s infinite;
   position: absolute;
   text-align: center;
 }
 .home__content-landing .text-wrapper .text3 {
+  font-size: 32px;
   opacity: 0;
   animation: an3 6s infinite;
   position: absolute;
@@ -73,4 +71,7 @@
   90% {
     opacity: 0;
   }
+}
+.home__content-landing .end {
+  text-align: center;
 }
