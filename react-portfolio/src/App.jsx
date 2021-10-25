@@ -5,6 +5,8 @@ import Home from './pages/home/home'
 import Portfolio from './pages/portfolio/portfolio';
 import About from './pages/about/about';
 import Footer from './components/footer/footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-icons/fa';
 
 function App() {
 	return (

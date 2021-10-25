@@ -18,6 +18,7 @@ import Sass from '../../components/assets/images/sass.png';
 import Spring from '../../components/assets/images/spring.png';
 
 const about = () => {
+    
     AOS.init();
     
     return (
