@@ -1,36 +1,37 @@
 .about__row1 {
+  background-color: #F6F6F2;
   width: 100%;
+  margin-bottom: 15px;
 }
 .about__row1-content {
-  border: 1px black solid;
+  box-shadow: 5px 5px 15px 5px #C9C7C7;
   border-radius: 15px;
 }
-.about__row1-content-left {
-  margin: 10px;
-  border: 1px black solid;
-}
 .about__row1-content-left img {
-  width: 70%;
-  height: 70%;
+  width: 65%;
+  height: 65%;
   border-radius: 50%;
 }
 .about__row1-content-right {
   margin: 10px;
-  border: 1px black solid;
-}
-.about__row1-right {
-  border-radius: 50px;
-  border: 1px black solid;
-  width: 48%;
 }
 .about__row2 {
+  background-color: #F6F6F2;
   width: 100%;
-  height: 100px;
+  margin-bottom: 15px;
+}
+.about__row2-content2 {
+  box-shadow: 5px 5px 15px 5px #C9C7C7;
+  background-color: #F6F6F2;
+  border-radius: 15px;
 }
 .about__row2-content2 .icon {
-  border: black solid 1px;
+  width: 100%;
 }
 .about__row2-content2 .icon .icons {
-  width: 60px;
-  height: 60px;
+  max-width: 160px;
+  max-height: 160px;
+  max-width: fit-content;
+  min-width: 10px;
+  margin: auto;
 }

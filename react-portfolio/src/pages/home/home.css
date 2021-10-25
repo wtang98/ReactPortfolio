@@ -8,8 +8,9 @@
   height: 100%;
 }
 .home__content {
-  height: 94.213%;
+  height: 92%;
   font-family: "Poppins", sans-serif;
+  color: #26474E;
   font-size: 24px;
   text-align: center;
 }

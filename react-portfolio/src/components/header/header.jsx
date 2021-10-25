@@ -9,26 +9,25 @@ const Header = (props) => {
 
     return (
         <div className="header">
-
             <div className="header__left">
-                <div className="header__left-container d-flex align-items-center ">
+                <div className="header__left-container d-flex align-items-center">
                     <Link to ="/">
-                        <div className="header__left-home">
+                        <div className="header__left-icon home">
                             <FaHome/>
                         </div>
                     </Link>
                     <Link to="/portfolio">
-                        <div className="header__left-portfolio">
+                        <div className="header__left-icon portfolio">
                             <FaBriefcase/>
                         </div >
                     </Link>
                     <Link to="/contact">
-                        <div className="header__left-contact ">
+                        <div className="header__left-icon contact ">
                             <FaMailBulk/>
                         </div>
                     </Link>
                     <Link to="/about">
-                        <div className="header__left-about">
+                        <div className="header__left-icon about">
                             <FaInfoCircle/>
                         </div>
                     </Link>

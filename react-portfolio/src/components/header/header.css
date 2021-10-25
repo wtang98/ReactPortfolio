@@ -5,7 +5,7 @@
 }
 
 .header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #6FB3B8;
   width: 100%;
   height: 52px;
   display: grid;
@@ -17,42 +17,20 @@
   font-size: 30px;
   padding-bottom: 6px;
 }
-.header__left-home {
-  color: grey;
+.header__left-icon {
+  color: #6FB3B8;
   margin-right: 10px;
   text-decoration: none;
 }
-.header__left-home:hover {
-  color: darkgrey;
+.header__left-icon:hover {
+  color: #C2EDCE;
 }
-.header__left-home:visited {
+.header__left-icon:visited {
   text-decoration: none;
-}
-.header__left-portfolio {
-  color: grey;
-  margin-right: 10px;
-}
-.header__left-portfolio:hover {
-  color: darkgrey;
-}
-.header__left-portfolio:visited {
-  text-decoration: none;
-}
-.header__left-about {
-  color: grey;
-  margin-right: 10px;
-}
-.header__left-about:hover {
-  color: darkgrey;
-}
-.header__left-contact {
-  color: grey;
-  margin-right: 10px;
-}
-.header__left-contact:hover {
-  color: darkgrey;
 }
 .header__center {
-  font-size: 24px;
+  font-size: 28px;
   font-family: "Poppins", sans-serif;
+  color: #6FB3B8;
+  font-weight: 600;
 }
