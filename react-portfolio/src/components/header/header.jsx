@@ -21,11 +21,6 @@ const Header = (props) => {
                             <FaBriefcase/>
                         </div >
                     </Link>
-                    <Link to="/contact">
-                        <div className="header__left-icon contact ">
-                            <FaMailBulk/>
-                        </div>
-                    </Link>
                     <Link to="/about">
                         <div className="header__left-icon about">
                             <FaInfoCircle/>

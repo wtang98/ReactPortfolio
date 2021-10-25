@@ -8,7 +8,10 @@ const footer = () => {
             <div className="footer__left">
                 Built by Wei-Tong Tang ©
             </div>
-            <div className="footer__right d-flex">
+            <div className="footer__right d-flex align-items-center">
+                {/* <div className="d-flex align-items-center"> */}
+                    <p className="mb-0">Contact me : </p>
+                {/* </div> */}
                 <a href="https://www.linkedin.com/in/wei-tong-tang-81bb851b2/" target="_blank">
                     <div className="footer__right-icon">
                         <FaLinkedin/>

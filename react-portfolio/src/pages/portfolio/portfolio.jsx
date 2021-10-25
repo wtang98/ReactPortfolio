@@ -6,7 +6,9 @@ const Portfolio = () => {
     return (
         <div className="portfolio">
             <Header title = {"Portfolio"}/>
-
+            <div>
+                
+            </div>
         </div>
     )
 }

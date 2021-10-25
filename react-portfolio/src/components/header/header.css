@@ -24,6 +24,7 @@
 }
 .header__left-icon:hover {
   color: #C2EDCE;
+  transform: scale(1.5);
 }
 .header__left-icon:visited {
   text-decoration: none;
