@@ -19,6 +19,7 @@ import Spring from '../../components/assets/images/spring.png';
 
 const about = () => {
     AOS.init();
+    
     return (
         <div className="about">
             <Header title = {"About Me"} className/>
@@ -36,11 +37,11 @@ const about = () => {
                             data-aos-delay="400">
                             <p>
                                 I'm a London based software developer passionate about writing
-                                concise code and working in tech. I am graduated the intensive _nology
+                                concise code and working in tech. I graduated the intensive _nology
                                 12 week software development course.
                             </p>
                             <p>
-                                I attended Swansea univeristy to read War and Society where i received a 2:1.
+                                I attended Swansea university to read War and Society where I received a 2:1.
                             </p>
                         </div>
                     </div>
@@ -60,7 +61,7 @@ const about = () => {
                         
                     </div>
                     <div className="icon d-flex justify-content-center">
-                    <img className="icons jest p-3" src={Jest} data-aos="flip-right" data-aos-delay="1500" />
+                        <img className="icons jest p-3" src={Jest} data-aos="flip-right" data-aos-delay="1500" />
                         <img className="icons sql p-3" src={MySQL} data-aos="flip-right" data-aos-delay="1400" />
                         <img className="icons gh p-3" src={Github} data-aos="flip-right" data-aos-delay="1300" />
                         <img className="icons java p-3" src={Java} data-aos="flip-right" data-aos-delay="1200" />

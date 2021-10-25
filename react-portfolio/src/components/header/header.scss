@@ -6,7 +6,7 @@
 }
 
 .header{
-    border-bottom: 1px solid #6FB3B8;
+    border-bottom: 1px solid $hf-color;
     width: 100%;
     height: 52px;
     display: grid;
@@ -17,7 +17,7 @@
         font-size: 30px;
         padding-bottom: 6px;
         &-icon{
-            color: #6FB3B8;
+            color: $hf-color;
             margin-right: 10px;
             text-decoration: none;
             &:hover {
@@ -31,10 +31,9 @@
     &__center{
         font-size: 28px;
         font-family: $font-primary;
-        color: #6FB3B8;
+        color: $hf-color;
         font-weight: 600;
     }
     &__right{
-
     }
 }

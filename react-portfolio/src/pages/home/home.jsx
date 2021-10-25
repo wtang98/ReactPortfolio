@@ -23,6 +23,7 @@ const home = () => {
                 <h1 className="end">Developer</h1>
                 </div>
             </div>
+            
         </div>
     )
 }

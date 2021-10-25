@@ -1,28 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 .about__row1 {
-  background-color: #F6F6F2;
   width: 100%;
+  max-height: 30%;
   margin-bottom: 15px;
 }
 .about__row1-content {
-  box-shadow: 5px 5px 15px 5px #C9C7C7;
+  background-color: #6FB3B8;
+  box-shadow: 5px 5px 15px 5px #C2EDCE;
   border-radius: 15px;
 }
 .about__row1-content-left img {
-  width: 65%;
-  height: 65%;
+  width: 60%;
+  height: 60%;
   border-radius: 50%;
 }
 .about__row1-content-right {
   margin: 10px;
+  color: #388087;
 }
 .about__row2 {
-  background-color: #F6F6F2;
   width: 100%;
   margin-bottom: 15px;
+  color: #388087;
 }
 .about__row2-content2 {
-  box-shadow: 5px 5px 15px 5px #C9C7C7;
-  background-color: #F6F6F2;
+  box-shadow: 5px 5px 15px 5px #C2EDCE;
+  background-color: #6FB3B8;
   border-radius: 15px;
 }
 .about__row2-content2 .icon {
@@ -34,4 +37,7 @@
   max-width: fit-content;
   min-width: 10px;
   margin: auto;
+}
+.about__row2-content2 .icon .icons:hover {
+  transform: scale(2.1);
 }

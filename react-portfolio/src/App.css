@@ -14,3 +14,7 @@
 .App__content {
   width: 75%;
 }
+.App .footer {
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,24 @@
+@import '../assets/assets.scss';
+
+.footer{
+    width: 75%;
+    height: 52px;
+    border-top: solid 1px ;
+    color: $hf-color;
+    &__left{
+
+    }
+    &__right{
+        font-size: 140%;
+        &-icon{
+            margin-left:10px;
+            color: $hf-color;
+            &:hover {
+                color: #C2EDCE;
+            }
+            &:visited{
+                text-decoration: none;
+            }
+        }
+    }
+}

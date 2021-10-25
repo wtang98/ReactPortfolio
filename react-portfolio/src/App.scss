@@ -12,7 +12,12 @@
 	justify-content: center;
 	&__content{
 		width: 75%;
-		// height: 94%;
+	}
+	.footer{
+		position: fixed;
+		bottom:0;
+		// width: 99%;
+    	// height: 52px;
 	}
 }
 
