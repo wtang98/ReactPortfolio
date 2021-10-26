@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/header/header'
-import './about.css'
+import './about.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import DP from '../../components/assets/images/dp.jpg'
@@ -53,21 +53,21 @@ const about = () => {
                 <div className="about__row2-content2 p-3">
                     <p>Current Technologies:</p>
                     <div className="icon d-flex justify-content-center">
-                        <img className="icons html p-3" src={HTML} data-aos="flip-left" data-aos-delay="400"/>
-                        <img className="icons css p-3" src={CSS} data-aos="flip-left" data-aos-delay="500"/>
-                        <img className="icons js p-3" src={JS} data-aos="flip-left" data-aos-delay="600"/>
-                        <img className="icons sass p-3" src={Sass} data-aos="flip-left" data-aos-delay="700"/>
-                        <img className="icons google p-3" src={Google} data-aos="flip-left" data-aos-delay="800"/>
-                        <img className="icons bootstrap p-3" src={Bootstrap} data-aos="flip-left" data-aos-delay="900"/>
+                        <img className="icons html p-3" src={HTML} alt="" data-aos="flip-left" data-aos-delay="400"/>
+                        <img className="icons css p-3" src={CSS} alt="" data-aos="flip-left" data-aos-delay="500"/>
+                        <img className="icons js p-3" src={JS} alt="" data-aos="flip-left" data-aos-delay="600"/>
+                        <img className="icons sass p-3" src={Sass} alt="" data-aos="flip-left" data-aos-delay="700"/>
+                        <img className="icons google p-3" src={Google} alt="" data-aos="flip-left" data-aos-delay="800"/>
+                        <img className="icons bootstrap p-3" src={Bootstrap} alt="" data-aos="flip-left" data-aos-delay="900"/>
                         
                     </div>
                     <div className="icon d-flex justify-content-center">
-                        <img className="icons jest p-3" src={Jest} data-aos="flip-right" data-aos-delay="1500" />
-                        <img className="icons sql p-3" src={MySQL} data-aos="flip-right" data-aos-delay="1400" />
-                        <img className="icons gh p-3" src={Github} data-aos="flip-right" data-aos-delay="1300" />
-                        <img className="icons java p-3" src={Java} data-aos="flip-right" data-aos-delay="1200" />
-                        <img className="icons jsx p-3" src={JSX} data-aos="flip-right" data-aos-delay="1100" />
-                        <img className="icons spring p-3" src={Spring} data-aos="flip-right" data-aos-delay="1000" />
+                        <img className="icons jest p-3" src={Jest} alt="" data-aos="flip-right" data-aos-delay="1500" />
+                        <img className="icons sql p-3" src={MySQL} alt="" data-aos="flip-right" data-aos-delay="1400" />
+                        <img className="icons gh p-3" src={Github} alt="" data-aos="flip-right" data-aos-delay="1300" />
+                        <img className="icons java p-3" src={Java} alt="" data-aos="flip-right" data-aos-delay="1200" />
+                        <img className="icons jsx p-3" src={JSX} alt="" data-aos="flip-right" data-aos-delay="1100" />
+                        <img className="icons spring p-3" src={Spring} alt="" data-aos="flip-right" data-aos-delay="1000" />
                     </div>
                 </div>
             </div>

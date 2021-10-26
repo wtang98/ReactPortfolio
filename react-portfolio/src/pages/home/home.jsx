@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/header/header'
-import './home.css'
+import './home.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

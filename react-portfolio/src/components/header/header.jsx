@@ -1,11 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import './header.css'
-import { FaHome, FaBriefcase, FaMailBulk, FaInfoCircle } from 'react-icons/fa';
+import './header.scss'
+import { FaHome, FaBriefcase, FaInfoCircle } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = (props) => {
 
     const {title} = props;
+    AOS.init();
 
     return (
         <div className="header">
@@ -30,7 +33,7 @@ const Header = (props) => {
             </div>
 
             <div className="header__center d-flex justify-content-center align-middle">
-                <div className="header__center-title ">
+                <div className="header__center-title" data-aos="flip-down">
                     {title}
                 </div>
             </div>

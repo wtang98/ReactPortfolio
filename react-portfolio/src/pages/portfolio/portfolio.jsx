@@ -1,6 +1,6 @@
-import React from 'react'
-
-import Header from '../../components/header/header'
+import React from 'react';
+import Header from '../../components/header/header';
+import './portfolio.scss';
 
 const Portfolio = () => {
     return (
