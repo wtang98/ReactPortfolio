@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.footer {
+  width: 100%;
+  height: 52px;
+  border-top: solid 1px;
+  color: #388087;
+  background-color: #F6F6F2;
+}
+.footer__right {
+  font-size: 140%;
+}
+.footer__right-icon {
+  margin-left: 10px;
+  color: #388087;
+}
+.footer__right-icon:hover {
+  color: #C2EDCE;
+}
+.footer__right-icon:visited {
+  text-decoration: none;
+}

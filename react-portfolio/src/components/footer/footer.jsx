@@ -17,11 +17,11 @@ const footer = () => {
                         <FaLinkedin/>
                     </div>
                 </a>
-                <a href="https://github.com/wtang98" target="_blank">
+                {/* <a href="https://github.com/wtang98" target="_blank">
                     <div className="footer__right-icon">
                         <FaGithubSquare/> 
                     </div>
-                </a>
+                </a> */}
                 <a href="mailto:weitongblue@gmail.com" target="_blank">
                     <div className="footer__right-icon" >
                         <FaEnvelope/>

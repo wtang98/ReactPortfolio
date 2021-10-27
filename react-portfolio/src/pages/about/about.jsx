@@ -16,7 +16,6 @@ import MySQL from '../../components/assets/images/mysql.png';
 import JSX from '../../components/assets/images/react-icon.png';
 import Sass from '../../components/assets/images/sass.png';
 import Spring from '../../components/assets/images/spring.png';
-
 const about = () => {
     
     AOS.init();
@@ -70,9 +69,6 @@ const about = () => {
                         <img className="icons spring p-3" src={Spring} alt="" data-aos="flip-right" data-aos-delay="1000" />
                     </div>
                 </div>
-            </div>
-            <div>
-
             </div>
         </div>
     )

@@ -12,12 +12,15 @@
 	justify-content: center;
 	&__content{
 		width: 75%;
+		height: 100%;
+		background-color: #F6F6F2;
 	}
-	.footer{
-		position: fixed;
-		bottom:0;
-		// width: 99%;
-    	// height: 52px;
+	&__footer{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		
 	}
 }
 

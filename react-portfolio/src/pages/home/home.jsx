@@ -3,7 +3,6 @@ import Header from '../../components/header/header'
 import './home.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 const home = () => {
     AOS.init();
 
@@ -23,7 +22,6 @@ const home = () => {
                 <h1 className="end">Developer</h1>
                 </div>
             </div>
-            
         </div>
     )
 }

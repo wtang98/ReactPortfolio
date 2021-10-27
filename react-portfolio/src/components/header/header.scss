@@ -36,5 +36,19 @@
         font-weight: 600;
     }
     &__right{
+        font-size: 30px;
+        padding-bottom: 6px;
+        &-icon{
+            color: $hf-color;
+            margin-right: 10px;
+            text-decoration: none;
+            &:hover {
+                color: #C2EDCE;
+                transform: scale(1.5);
+            }
+            &:visited{
+                text-decoration: none;
+            }
+        }
     }
 }

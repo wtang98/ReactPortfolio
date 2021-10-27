@@ -13,8 +13,12 @@
 }
 .App__content {
   width: 75%;
+  height: 100%;
+  background-color: #F6F6F2;
 }
-.App .footer {
-  position: fixed;
-  bottom: 0;
+.App__footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }

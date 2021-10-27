@@ -28,7 +28,9 @@ function App() {
 
 					</Switch>
 				</Router>
-				<Footer className="footer w-100"/>
+			<div className="App__footer ">
+				<Footer className="App__footer-foot "/>
+			</div>
 			</div>
 		</div>
 	);

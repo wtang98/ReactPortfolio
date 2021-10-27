@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import './header.scss'
-import { FaHome, FaBriefcase, FaInfoCircle } from 'react-icons/fa';
+import { FaHome, FaBriefcase, FaInfoCircle, FaGithubSquare } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -39,7 +39,11 @@ const Header = (props) => {
             </div>
 
             <div className= "header__right d-flex justify-content-end">
-                a
+                <a href="https://github.com/wtang98" target="_blank">
+                    <div className="header__right-icon">
+                        <FaGithubSquare/> 
+                    </div>
+                </a>
             </div>
 
         </div>
