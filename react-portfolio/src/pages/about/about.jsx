@@ -37,8 +37,8 @@ const about = () => {
                             data-aos-delay="400">
                             <p>
                                 I'm a London based software developer passionate about writing
-                                concise code and working in tech. I graduated the intensive _nology
-                                12 week software development course.
+                                concise code and working in tech. I completed the intensive _nology
+                                12 week software development course on 22<sup>nd</sup> October 2021.
                             </p>
                             <p>
                                 I attended Swansea university to read War and Society where I received a 2:1.

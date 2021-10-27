@@ -147,7 +147,7 @@ const portfolio = () => {
                 </div>
 
                 <div className="portfolio__content-javagame d-flex justify-content-center">
-                    <a href="https://wtang98.github.io/ticket-tracker/" target="_blank">
+                    <a href="https://github.com/wtang98/Java-Game" target="_blank">
                         <div data-aos="flip-left" className="card">
                             <input type="checkbox" id="card5" className="more" aria-hidden="true"/>
                             <div className="content">
@@ -166,7 +166,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                A game written in Java using the pincicples of Object Orientated programming.
+                                                A game written in Java using the princicples of Object Orientated programming.
                                             </p>
                                         </div>
                                         <label for="card5" className="button return" aria-hidden="true">
