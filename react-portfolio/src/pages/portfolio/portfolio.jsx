@@ -34,7 +34,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                HTML/CSS and Javascript calculator 
+                                                HTML/CSS and Javascript calculator.
                                             </p>
                                         </div>
                                         <label for="card1" className="button return" aria-hidden="true">
@@ -100,7 +100,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                Brew Dog Api challenge using React and Api fetches
+                                                Brew Dog Api challenge using React and Api fetches.
                                             </p>
                                         </div>
                                         <label for="card3" className="button return" aria-hidden="true">
