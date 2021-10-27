@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 .portfolio__content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 25vw);
 }
 .portfolio__content .card {
   width: 30vw;
@@ -147,4 +147,35 @@
 }
 .portfolio__content ::-webkit-scrollbar-thumb:hover {
   background: teal;
+}
+
+@media only screen and (max-width: 1400px) {
+  .portfolio__content {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 35vw);
+  }
+  .portfolio__content .card {
+    width: 35vw;
+    max-width: 350px;
+    height: 30vh;
+    max-height: 350px;
+    margin: 1em;
+    perspective: 1500px;
+  }
+}
+@media only screen and (max-width: 826px) {
+  .portfolio__content {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(1, 25vw);
+  }
+  .portfolio__content .card {
+    width: 70vw;
+    max-width: 400px;
+    height: 30vh;
+    max-height: 350px;
+    margin: 1em;
+    perspective: 1500px;
+  }
 }

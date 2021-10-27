@@ -34,7 +34,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                My first JavaScript based project was to build a calculator.
+                                                HTML/CSS and Javascript calculator 
                                             </p>
                                         </div>
                                         <label for="card1" className="button return" aria-hidden="true">
@@ -67,7 +67,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                A reaction aim game that uses HTML, SCSS and ES6 JavaScript.
+                                                A reaction aim game that uses HTML/SCSS and JavaScript.
                                             </p>
                                         </div>
                                         <label for="card2" className="button return" aria-hidden="true">
@@ -100,7 +100,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                A reaction aim game that uses HTML, SCSS and ES6 JavaScript.
+                                                Brew Dog Api challenge using React and Api fetches
                                             </p>
                                         </div>
                                         <label for="card3" className="button return" aria-hidden="true">
@@ -133,7 +133,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                A reaction aim game that uses HTML, SCSS and ES6 JavaScript.
+                                                React exercise completed alongside another partner.
                                             </p>
                                         </div>
                                         <label for="card4" className="button return" aria-hidden="true">
@@ -180,7 +180,7 @@ const portfolio = () => {
                 </div>
 
                 <div className="portfolio__content-morse d-flex justify-content-center">
-                    <a href="https://wtang98.github.io/ticket-tracker/" target="_blank">
+                    <a href="https://wtang98.github.io/morse-code-translator/" target="_blank">
                         <div data-aos="flip-left" className="card">
                             <input type="checkbox" id="card6" className="more" aria-hidden="true"/>
                             <div className="content">
@@ -199,7 +199,7 @@ const portfolio = () => {
                                         </div>
                                         <div className="description">
                                             <p>
-                                                A game written in Java using the pincicples of Object Orientated programming.
+                                                Morse code translator using HTML/CSS and JavaScript.
                                             </p>
                                         </div>
                                         <label for="card6" className="button return" aria-hidden="true">
