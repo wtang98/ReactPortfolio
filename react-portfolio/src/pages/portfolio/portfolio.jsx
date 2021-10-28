@@ -15,7 +15,7 @@ const portfolio = () => {
             <Header title = {"Portfolio"}/>
             <div className="portfolio__content">
                 <div className="portfolio__content-calc d-flex justify-content-center">
-                    <a href="https://wtang98.github.io/newcalc/" target="_blank">
+                    <a href="https://wtang98.github.io/Calculator/" target="_blank">
                         <div data-aos="flip-left" className="card">
                             <input type="checkbox" id="card1" className="more" aria-hidden="true"/>
                             <div className="content">
@@ -48,7 +48,7 @@ const portfolio = () => {
                 </div>
 
                 <div className="portfolio__content-game d-flex justify-content-center">
-                    <a href="https://wtang98.github.io/game/" target="_blank">
+                    <a href="https://wtang98.github.io/JavaScript-Game/" target="_blank">
                         <div data-aos="flip-left" className="card">
                             <input type="checkbox" id="card2" className="more" aria-hidden="true"/>
                             <div className="content">
@@ -180,7 +180,7 @@ const portfolio = () => {
                 </div>
 
                 <div className="portfolio__content-morse d-flex justify-content-center">
-                    <a href="https://wtang98.github.io/morse-code-translator/" target="_blank">
+                    <a href="https://wtang98.github.io/Morse-Code-Translator/" target="_blank">
                         <div data-aos="flip-left" className="card">
                             <input type="checkbox" id="card6" className="more" aria-hidden="true"/>
                             <div className="content">
