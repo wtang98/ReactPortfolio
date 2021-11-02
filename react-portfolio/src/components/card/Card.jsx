@@ -1,0 +1,40 @@
+import React from 'react'
+
+const Card = () => {
+    return (
+        <div className="portfolio__content d-flex justify-content-center">
+                    <a href={gHubUrl} target="_blank">
+                        <div data-aos="flip-left" className="card">
+                            <input type="checkbox" id={cardId} className="more" aria-hidden="true"/>
+                            <div className="content">
+                                <div className="front"
+                                    style={{backgroundImage: `url(${backgroundImagePath})`}}>
+                                    <div className="inner">
+                                        <h2 className="d-flex text-align-center">{title}</h2>
+                                        <label for={cardId} className="button" aria-hidden="true">
+                                            Details
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="back">
+                                    <div className="inner">
+                                        <div className="info">
+                                        </div>
+                                        <div className="description">
+                                            <p>
+                                                {description}
+                                            </p>
+                                        </div>
+                                        <label for={cardId} className="button return" aria-hidden="true">
+                                            <i className="fas fa-arrow-left"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    )
+}
+
+export default Card

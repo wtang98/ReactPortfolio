@@ -7,6 +7,7 @@ import punkPath from '../../components/assets/portfolio images/punkapi.PNG'
 import ticketPath from '../../components/assets/portfolio images/tickettracker.PNG'
 import javaGame from '../../components/assets/portfolio images/javagame.PNG'
 import morse from '../../components/assets/portfolio images/morse.PNG'
+import airbnb from '../../components/assets/portfolio images/airbnb.PNG'
 
 const portfolio = () => {
 
@@ -212,6 +213,42 @@ const portfolio = () => {
                     </a>
                 </div>
 
+
+                <div className="portfolio__content-airbnb d-flex justify-content-center">
+                    <a href="https://wtang98.github.io/Airbnb-Clone/" target="_blank">
+                        <div data-aos="flip-left" className="card">
+                            <input type="checkbox" id="card7" className="more" aria-hidden="true"/>
+                            <div className="content">
+                                <div className="front"
+                                    style={{backgroundImage: `url(${airbnb})`}}>
+                                    <div className="inner">
+                                        <h2 className="d-flex text-align-center">AirBnB Clone</h2>
+                                        <label for="card7" className="button" aria-hidden="true">
+                                            Details
+                                        </label>
+                                    </div>
+                                </div>
+                                <div className="back">
+                                    <div className="inner">
+                                        <div className="info">
+                                        </div>
+                                        <div className="description">
+                                            <p>
+                                                AirBnB clone built around the 2020 version of the website
+                                            </p>
+                                        </div>
+                                        <label for="card7" className="button return" aria-hidden="true">
+                                            <i className="fas fa-arrow-left"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
+                
 
 
             </div>
