@@ -1,6 +1,10 @@
 import React from 'react'
+import './Card.scss'
 
-const Card = () => {
+const Card = (props) => {
+    
+    const {gHubUrl, cardId, backgroundImagePath, description, title} = props
+
     return (
         <div className="portfolio__content d-flex justify-content-center">
                     <a href={gHubUrl} target="_blank">
