@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.0d22067f.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.10d50754.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.10d50754.chunk.js.map",
-    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.9ffcf964.js",
-    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.9ffcf964.js.map",
+    "main.css": "/reactPortfolio/static/css/main.00a7e37d.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.38476611.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.38476611.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.32cdcc23.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.32cdcc23.js.map",
     "static/css/2.99465bda.chunk.css": "/reactPortfolio/static/css/2.99465bda.chunk.css",
     "static/js/2.d756573c.chunk.js": "/reactPortfolio/static/js/2.d756573c.chunk.js",
     "static/js/2.d756573c.chunk.js.map": "/reactPortfolio/static/js/2.d756573c.chunk.js.map",
-    "static/js/3.cb06d598.chunk.js": "/reactPortfolio/static/js/3.cb06d598.chunk.js",
-    "static/js/3.cb06d598.chunk.js.map": "/reactPortfolio/static/js/3.cb06d598.chunk.js.map",
+    "static/js/3.2f8571fd.chunk.js": "/reactPortfolio/static/js/3.2f8571fd.chunk.js",
+    "static/js/3.2f8571fd.chunk.js.map": "/reactPortfolio/static/js/3.2f8571fd.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
     "static/css/2.99465bda.chunk.css.map": "/reactPortfolio/static/css/2.99465bda.chunk.css.map",
-    "static/css/main.0d22067f.chunk.css.map": "/reactPortfolio/static/css/main.0d22067f.chunk.css.map",
+    "static/css/main.00a7e37d.chunk.css.map": "/reactPortfolio/static/css/main.00a7e37d.chunk.css.map",
     "static/js/2.d756573c.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.d756573c.chunk.js.LICENSE.txt",
     "static/media/airbnb.54b08031.PNG": "/reactPortfolio/static/media/airbnb.54b08031.PNG",
     "static/media/bootstrap.b843cb05.png": "/reactPortfolio/static/media/bootstrap.b843cb05.png",
@@ -34,10 +34,10 @@
     "static/media/tickettracker.c7985fc8.PNG": "/reactPortfolio/static/media/tickettracker.c7985fc8.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ffcf964.js",
+    "static/js/runtime-main.32cdcc23.js",
     "static/css/2.99465bda.chunk.css",
     "static/js/2.d756573c.chunk.js",
-    "static/css/main.0d22067f.chunk.css",
-    "static/js/main.10d50754.chunk.js"
+    "static/css/main.00a7e37d.chunk.css",
+    "static/js/main.38476611.chunk.js"
   ]
 }
