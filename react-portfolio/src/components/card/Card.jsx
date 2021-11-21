@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card.scss'
+import ss from '../assets/portfolioImages/calculator.PNG'
 
 const Card = (props) => {
     

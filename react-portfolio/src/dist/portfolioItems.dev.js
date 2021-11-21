@@ -4,52 +4,71 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
+
+var _calculator = _interopRequireDefault(require("./components/assets/portfolioImages/calculator.PNG"));
+
+var _game = _interopRequireDefault(require("./components/assets/portfolioImages/game.PNG"));
+
+var _punkapi = _interopRequireDefault(require("./components/assets/portfolioImages/punkapi.PNG"));
+
+var _tickettracker = _interopRequireDefault(require("./components/assets/portfolioImages/tickettracker.PNG"));
+
+var _javagame = _interopRequireDefault(require("./components/assets/portfolioImages/javagame.PNG"));
+
+var _morse = _interopRequireDefault(require("./components/assets/portfolioImages/morse.PNG"));
+
+var _airbnb = _interopRequireDefault(require("./components/assets/portfolioImages/airbnb.PNG"));
+
+var _facebook = _interopRequireDefault(require("./components/assets/portfolioImages/facebook.PNG"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
 var items = [{
   gHubUrl: "https://wtang98.github.io/Calculator/",
   cardId: "card1",
-  backgroundImagePath: "./assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _calculator["default"],
   title: "Calculator",
   description: "HTML/CSS and Javascript calculator"
 }, {
   gHubUrl: "https://wtang98.github.io/JavaScript-Game/",
   cardId: "card2",
-  backgroundImagePath: "./components/assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _game["default"],
   title: "Reaction Game",
   description: "A reaction aim game that uses HTML/SCSS and JavaScript."
 }, {
   gHubUrl: "https://wtang98.github.io/punk-api/",
   cardId: "card3",
-  backgroundImagePath: "./components/assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _punkapi["default"],
   title: "Brewdog Api",
   description: "Brew Dog Api challenge using React and Api fetches."
 }, {
   gHubUrl: "https://wtang98.github.io/ticket-tracker/",
   cardId: "card4",
-  backgroundImagePath: "./components/assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _tickettracker["default"],
   title: "Ticket Tracker",
   description: "React exercise completed alongside another partner."
 }, {
   gHubUrl: "https://github.com/wtang98/Java-Game",
   cardId: "card5",
-  backgroundImagePath: "./components/assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _javagame["default"],
   title: "Java Game",
   description: " A game written in Java using the principles of Object Orientated programming."
 }, {
   gHubUrl: "https://wtang98.github.io/Morse-Code-Translator/",
   cardId: "card6",
-  backgroundImagePath: "./components/assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _morse["default"],
   title: "Morse Code Translator",
   description: "Morse code translator using HTML/CSS and JavaScript."
 }, {
   gHubUrl: "https://wtang98.github.io/Airbnb-Clone/",
   cardId: "card7",
-  backgroundImagePath: "./components/assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _airbnb["default"],
   title: "AirBnB Clone",
-  description: "AirBnB clone built around the 2020 version of the website"
+  description: "AirBnB clone built around the 2020 version of the website built in React"
 }, {
   gHubUrl: "https://wtang98.github.io/Facebook-clone/",
   cardId: "card8",
-  backgroundImagePath: "./components/assets/portfolioImages/calculator.PNG",
+  backgroundImagePath: _facebook["default"],
   title: "Facebook Clone",
   description: "FaceBook clone in React using firebase login."
 }];

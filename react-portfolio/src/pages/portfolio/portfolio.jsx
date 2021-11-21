@@ -1,14 +1,6 @@
 import React from 'react'
 import Header from '../../components/header/header'
 import './portfolio.scss'
-import calcPath from '../../components/assets/portfolioImages/calculator.PNG'
-import gamePath from '../../components/assets/portfolioImages/game.PNG'
-import punkPath from '../../components/assets/portfolioImages/punkapi.PNG'
-import ticketPath from '../../components/assets/portfolioImages/tickettracker.PNG'
-import javaGame from '../../components/assets/portfolioImages/javagame.PNG'
-import morse from '../../components/assets/portfolioImages/morse.PNG'
-import airbnb from '../../components/assets/portfolioImages/airbnb.PNG'
-import FaceBook from '../../components/assets/portfolioImages/facebook.PNG'
 import portItems from '../../portfolioItems';
 import Card from "../../components/card/Card";
 
