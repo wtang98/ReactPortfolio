@@ -70,7 +70,7 @@ const items = [
         cardId:"card9",
         backgroundImagePath:asset9,
         title:"Client Project",
-        description:"For the final project on the Nology Course, our group created a tracker for students and their projects for Nology writing the front end in react and backend in Java and SQL.",
+        description:"For the final project on the Nology Course, our group created a tracker for students and their projects for Nology; writing the front end in react and backend in Java and SQL.",
     },
 
 ]

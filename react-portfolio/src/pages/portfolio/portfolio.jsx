@@ -18,43 +18,9 @@ const portfolio = () => {
 
     return (
         <div className="portfolio">
-            <Header title = {"Portfolio"}/>
+            <Header title = {"Portfolio"} home={true} portfolio={false} about={true}/>
             <div className="portfolio__content">
                 {card}
-
-                {/* <div className="portfolio__content-calc d-flex justify-content-center">
-                    <a href="https://wtang98.github.io/Calculator/" target="_blank">
-                        <div data-aos="flip-left" className="card">
-                            <input type="checkbox" id="card1" className="more" aria-hidden="true"/>
-                            <div className="content">
-                                <div className="front"
-                                    style={{backgroundImage: `url(${calcPath})`}}>
-                                    <div className="inner">
-                                        <h2 className="d-flex text-align-center">Calculator</h2>
-                                        <label for="card1" className="button" aria-hidden="true">
-                                            Details
-                                        </label>
-                                    </div>
-                                </div>
-                                <div className="back">
-                                    <div className="inner">
-                                        <div className="info">
-                                        </div>
-                                        <div className="description">
-                                            <p>
-                                                HTML/CSS and Javascript calculator.
-                                            </p>
-                                        </div>
-                                        <label for="card1" className="button return" aria-hidden="true">
-                                            <i className="fas fa-arrow-left"></i>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> */}
-
             </div>
         </div>
     )

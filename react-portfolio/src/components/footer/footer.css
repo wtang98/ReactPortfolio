@@ -6,8 +6,11 @@
   color: #388087;
   background-color: #F6F6F2;
 }
+.footer__left {
+  font-size: 22px;
+}
 .footer__right {
-  font-size: 140%;
+  font-size: 22px;
 }
 .footer__right-icon {
   margin-left: 10px;
@@ -18,4 +21,21 @@
 }
 .footer__right-icon:visited {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 619px) {
+  .footer__left {
+    font-size: 13px;
+  }
+  .footer__right {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 356px) {
+  .footer__left {
+    font-size: 12px;
+  }
+  .footer__right {
+    font-size: 12px;
+  }
 }

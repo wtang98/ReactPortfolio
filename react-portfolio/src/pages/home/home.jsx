@@ -8,7 +8,7 @@ const home = () => {
 
     return (
         <div className="home">
-            <Header title ={"Home"}/>
+            <Header title ={"Home"} home={false} portfolio={true} about={true}/>
             <div className="home__content d-flex justify-content-center flex-column align-items-center w-100">
                 <div className="home__content-landing"
                 data-aos="zoom-out"

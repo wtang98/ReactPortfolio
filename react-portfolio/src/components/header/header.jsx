@@ -1,14 +1,21 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom';
 import './header.scss'
+import { Squash as Hamburger } from 'hamburger-react'
 import { FaHome, FaBriefcase, FaInfoCircle, FaGithubSquare } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Header = (props) => {
+    const [menuState, setMenuState] = useState(false)
 
-    const {title} = props;
+    const {title, home, portfolio, about} = props;
     AOS.init();
+
+
+    const menuToggle = () => {
+        setMenuState(!menuState);
+    }
 
     return (
         <div className="header">
@@ -44,8 +51,26 @@ const Header = (props) => {
                         <FaGithubSquare/> 
                     </div>
                 </a>
+                <div className="header__right-hamburger" display="none" onClick={menuToggle}>
+                    <Hamburger/>
+                </div>
             </div>
 
+            {menuState ?  
+            <div className="hamburgerMenu">
+                <div className="hambugerMenu__links">
+                    <Link to="/">
+                        {home?<div className="hambugerMenu__links-home">Home</div>:""}
+                    </Link>
+                    <Link  to="/portfolio">
+                        {portfolio?<div className="hambugerMenu__links-portfolio">Portfolio</div>:""}
+                    </Link>
+                    <Link  to="/about">
+                        {about?<div className="hambugerMenu__links-about">About</div>:""}
+                    </Link>
+                </div>
+            </div>
+            :<div></div>}
         </div>
     )
 }

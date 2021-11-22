@@ -42,3 +42,17 @@
   position: absolute;
   bottom: 0;
 }
+
+@media only screen and (max-width: 519px) {
+  .about__row1-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__row1-content-left img {
+    width: 60px;
+    height: 60px;
+  }
+  .about__row2-content2 .icon .icons {
+    padding: 0;
+  }
+}

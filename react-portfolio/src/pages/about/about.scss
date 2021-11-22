@@ -51,3 +51,37 @@
 		bottom:0;
 	}
 }
+
+@media only screen and (max-width: 519px) {
+    
+.about{
+    &__row1{
+        &-content{
+            display: flex;
+            flex-direction: column;
+            &-left{
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+            &-right{
+                
+            }
+        }
+    }
+    &__row2{
+        &-content2{
+            .icon{
+                .icons{
+                    padding: 0;
+                    &:hover{
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+	}
+}
+}
