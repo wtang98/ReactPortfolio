@@ -8,20 +8,13 @@ const footer = () => {
             <div className="footer__left">
                 Built by Wei-Tong Tang ©
             </div>
-            <div className="footer__right d-flex align-items-center">
-                {/* <div className="d-flex align-items-center"> */}
-                    <p className="mb-0">Contact me : </p>
-                {/* </div> */}
+            <div className="footer__right">
+                <p className="mb-0">Contact me : </p>
                 <a href="https://www.linkedin.com/in/wei-tong-tang-81bb851b2/" target="_blank">
                     <div className="footer__right-icon">
                         <FaLinkedin/>
                     </div>
                 </a>
-                {/* <a href="https://github.com/wtang98" target="_blank">
-                    <div className="footer__right-icon">
-                        <FaGithubSquare/> 
-                    </div>
-                </a> */}
                 <a href="mailto:weitongblue@gmail.com" target="_blank">
                     <div className="footer__right-icon" >
                         <FaEnvelope/>

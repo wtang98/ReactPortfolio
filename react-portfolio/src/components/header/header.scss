@@ -84,10 +84,21 @@
     }
 }
 .hamburgerMenu{
-    border: 1px red solid;
-    background-color: $tertiary-color;
+    background-color: #F6F6F2;
     z-index: 99999;
-    &__links{
-        position: relative;
-    }
+    width: 75%;
+    height: 70px;
+    position: absolute;
+    top: 52px;
+    right: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: $hf-color;
+    text-decoration: none;
+    color: $primary-color;
+    border-radius: 15px;
+    font-size: 17px;
+    // font-weight: 600;
 }

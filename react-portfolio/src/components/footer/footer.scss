@@ -10,6 +10,10 @@
         font-size: 22px;
     }
     &__right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         font-size: 22px;
         &-icon{
             margin-left:10px;
@@ -29,28 +33,30 @@
             font-size: 13px;
         }
         &__right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             font-size: 13px;
             &-icon{
-                &:hover {
-                }
-                &:visited{
-                }
+                font-size: 22px;
             }
         }
     }
 }
-@media only screen and (max-width: 356px) {
+@media only screen and (max-width: 360px) {
     .footer{
         &__left{
             font-size: 12px;
         }
         &__right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             font-size: 12px;
             &-icon{
-                &:hover {
-                }
-                &:visited{
-                }
+                font-size: 22px;
             }
         }
     }

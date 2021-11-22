@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom';
+import { useHistory } from 'react-router'
 import './header.scss'
 import { Squash as Hamburger } from 'hamburger-react'
 import { FaHome, FaBriefcase, FaInfoCircle, FaGithubSquare } from 'react-icons/fa';
@@ -7,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Header = (props) => {
+    const history = useHistory();
     const [menuState, setMenuState] = useState(false)
 
     const {title, home, portfolio, about} = props;
@@ -15,6 +17,16 @@ const Header = (props) => {
 
     const menuToggle = () => {
         setMenuState(!menuState);
+    }
+
+    const hamburgerMenu = () => {
+       return <div className="hamburgerMenu" data-aos="fade-left">
+                <div className="hambugerMenu__links">
+                    {home && <div onClick={()=>history.push('/')} className="hambugerMenu__links-home">Home</div>}
+                    {portfolio && <div onClick={()=>history.push('/portfolio')} className="hambugerMenu__links-portfolio">Portfolio</div>}
+                    {about && <div onclick={()=>history.push('/about')} className="hambugerMenu__links-about">About</div>}
+                </div>
+            </div>
     }
 
     return (
@@ -55,22 +67,7 @@ const Header = (props) => {
                     <Hamburger/>
                 </div>
             </div>
-
-            {menuState ?  
-            <div className="hamburgerMenu">
-                <div className="hambugerMenu__links">
-                    <Link to="/">
-                        {home?<div className="hambugerMenu__links-home">Home</div>:""}
-                    </Link>
-                    <Link  to="/portfolio">
-                        {portfolio?<div className="hambugerMenu__links-portfolio">Portfolio</div>:""}
-                    </Link>
-                    <Link  to="/about">
-                        {about?<div className="hambugerMenu__links-about">About</div>:""}
-                    </Link>
-                </div>
-            </div>
-            :<div></div>}
+            {menuState &&  hamburgerMenu()}
         </div>
     )
 }

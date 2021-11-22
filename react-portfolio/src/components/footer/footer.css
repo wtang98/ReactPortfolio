@@ -10,6 +10,10 @@
   font-size: 22px;
 }
 .footer__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-size: 22px;
 }
 .footer__right-icon {
@@ -28,14 +32,28 @@
     font-size: 13px;
   }
   .footer__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-size: 13px;
   }
+  .footer__right-icon {
+    font-size: 22px;
+  }
 }
-@media only screen and (max-width: 356px) {
+@media only screen and (max-width: 360px) {
   .footer__left {
     font-size: 12px;
   }
   .footer__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-size: 12px;
+  }
+  .footer__right-icon {
+    font-size: 22px;
   }
 }
