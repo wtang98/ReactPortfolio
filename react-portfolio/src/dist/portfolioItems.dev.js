@@ -21,6 +21,8 @@ var _airbnb = _interopRequireDefault(require("./components/assets/portfolioImage
 
 var _facebook = _interopRequireDefault(require("./components/assets/portfolioImages/facebook.PNG"));
 
+var _client = _interopRequireDefault(require("./components/assets/portfolioImages/client.PNG"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var items = [{
@@ -71,6 +73,12 @@ var items = [{
   backgroundImagePath: _facebook["default"],
   title: "Facebook Clone",
   description: "FaceBook clone in React using firebase login."
+}, {
+  gHubUrl: "https://github.com/wtang98/_charlie",
+  cardId: "card9",
+  backgroundImagePath: _client["default"],
+  title: "Client Project",
+  description: "For the final project on the Nology Course, our group created a tracker for students and their projects for Nology writing the front end in react and backend in Java and SQL."
 }];
 var _default = items;
 exports["default"] = _default;

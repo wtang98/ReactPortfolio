@@ -6,6 +6,7 @@ import asset5 from "./components/assets/portfolioImages/javagame.PNG"
 import asset6 from "./components/assets/portfolioImages/morse.PNG"
 import asset7 from "./components/assets/portfolioImages/airbnb.PNG"
 import asset8 from "./components/assets/portfolioImages/facebook.PNG"
+import asset9 from "./components/assets/portfolioImages/client.PNG"
 
 const items = [
     {
@@ -63,6 +64,13 @@ const items = [
         backgroundImagePath:asset8,
         title:"Facebook Clone",
         description:"FaceBook clone in React using firebase login.",
+    },
+    {
+        gHubUrl:"https://github.com/wtang98/_charlie",
+        cardId:"card9",
+        backgroundImagePath:asset9,
+        title:"Client Project",
+        description:"For the final project on the Nology Course, our group created a tracker for students and their projects for Nology writing the front end in react and backend in Java and SQL.",
     },
 
 ]
