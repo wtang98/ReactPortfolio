@@ -22,9 +22,9 @@ const Header = (props) => {
     const hamburgerMenu = () => {
         return <div className="hamburgerMenu" data-aos="fade-left">
                 <div className="hamburgerMenu__links">
-                    {home && <div onClick={()=>history.push('/')} className="hambugerMenu__links-home">Home</div>}
-                    {portfolio && <div onClick={()=>history.push('/portfolio')} className="hambugerMenu__links-portfolio">Portfolio</div>}
-                    {about && <div onClick={()=>history.push('/about')} className="hambugerMenu__links-about">About</div>}
+                    {home && <div onClick={()=>history.push('/')} className="hamburgerMenu__links-home">Home</div>}
+                    {portfolio && <div onClick={()=>history.push('/portfolio')} className="hamburgerMenu__links-portfolio">Portfolio</div>}
+                    {about && <div onClick={()=>history.push('/about')} className="hamburgerMenu__links-about">About</div>}
                 </div>
             </div>
     }
