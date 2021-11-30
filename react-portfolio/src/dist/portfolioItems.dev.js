@@ -23,6 +23,8 @@ var _facebook = _interopRequireDefault(require("./components/assets/portfolioIma
 
 var _client = _interopRequireDefault(require("./components/assets/portfolioImages/client.PNG"));
 
+var _amazon = _interopRequireDefault(require("./components/assets/portfolioImages/amazon.PNG"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var items = [{
@@ -77,8 +79,14 @@ var items = [{
   gHubUrl: "https://github.com/wtang98/_charlie",
   cardId: "card9",
   backgroundImagePath: _client["default"],
-  title: "Client Project",
+  title: "Student/ project tracker manager",
   description: "For the final project on the Nology Course, our group created a tracker for students and their projects for Nology; writing the front end in react and backend in Java and SQL."
+}, {
+  gHubUrl: "https://clone-e9b58.web.app",
+  cardId: "card910",
+  backgroundImagePath: _amazon["default"],
+  title: "Amazon Clone",
+  description: "An Amazon clone using react, firebase hosting, firebase database, firebase authentication, redux and Stripe Payments"
 }];
 var _default = items;
 exports["default"] = _default;

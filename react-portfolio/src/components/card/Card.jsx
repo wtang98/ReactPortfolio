@@ -1,6 +1,5 @@
 import React from 'react'
 import './Card.scss'
-import ss from '../assets/portfolioImages/calculator.PNG'
 
 const Card = (props) => {
     
@@ -31,7 +30,7 @@ const Card = (props) => {
                                             </p>
                                         </div>
                                         <label for={cardId} className="button return" aria-hidden="true">
-                                            <i className="fas fa-arrow-left"></i>
+                                            <i className="fas fa-arrow-left">back</i>
                                         </label>
                                     </div>
                                 </div>

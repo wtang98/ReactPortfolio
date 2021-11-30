@@ -16,7 +16,7 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+  transition: transform 0.4s cubic-bezier(0.75, 0, 0.85, 1);
 }
 .portfolio__content .more {
   display: none;
@@ -24,8 +24,7 @@
 .portfolio__content .more:checked ~ .content {
   transform: rotateY(180deg);
 }
-.portfolio__content .front,
-.portfolio__content .back {
+.portfolio__content .front, .portfolio__content .back {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,8 +34,7 @@
   transform-style: preserve-3d;
   border-radius: 6px;
 }
-.portfolio__content .front .inner,
-.portfolio__content .back .inner {
+.portfolio__content .front .inner, .portfolio__content .back .inner {
   height: 100%;
   display: grid;
   padding: 1.5em;
@@ -94,6 +92,10 @@
   color: teal;
   padding-right: 10px;
 }
+.portfolio__content .back .description > p {
+  display: flex;
+  text-align: center;
+}
 .portfolio__content .back .button {
   grid-column: 1/-1;
   justify-self: center;
@@ -116,8 +118,11 @@
   text-align: center;
   left: 50%;
   backface-visibility: hidden;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.portfolio__content .button > i {
+  font-style: normal;
 }
 .portfolio__content .button:hover {
   background-color: #e0ffff;

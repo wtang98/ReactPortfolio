@@ -7,6 +7,7 @@ import asset6 from "./components/assets/portfolioImages/morse.PNG"
 import asset7 from "./components/assets/portfolioImages/airbnb.PNG"
 import asset8 from "./components/assets/portfolioImages/facebook.PNG"
 import asset9 from "./components/assets/portfolioImages/client.PNG"
+import asset10 from "./components/assets/portfolioImages/amazon.PNG"
 
 const items = [
     {
@@ -69,8 +70,15 @@ const items = [
         gHubUrl:"https://github.com/wtang98/_charlie",
         cardId:"card9",
         backgroundImagePath:asset9,
-        title:"Client Project",
+        title:"Student/ project tracker manager",
         description:"For the final project on the Nology Course, our group created a tracker for students and their projects for Nology; writing the front end in react and backend in Java and SQL.",
+    },
+    {
+        gHubUrl:"https://clone-e9b58.web.app",
+        cardId:"card910",
+        backgroundImagePath:asset10,
+        title:"Amazon Clone",
+        description:"An Amazon clone using react, firebase hosting, firebase database, firebase authentication, redux and Stripe Payments",
     },
 
 ]

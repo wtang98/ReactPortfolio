@@ -16,20 +16,16 @@
                     width: 100%;
                     height: 100%;
                     transform-style: preserve-3d;
-                    transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+                    transition: transform 0.4s cubic-bezier(0.75, 0, 0.85, 1);
                 }
             }
-            
             .more {
                 display: none;
-            
                 &:checked ~ .content {
                     transform: rotateY(180deg);
                 }
             }
-            
-            .front,
-            .back {
+            .front, .back {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -38,7 +34,6 @@
                 backface-visibility: hidden;
                 transform-style: preserve-3d;
                 border-radius: 6px;
-            
                 .inner {
                     height: 100%;
                     display: grid;
@@ -46,7 +41,6 @@
                     transform: translateZ(80px) scale(0.94);
                 }
             }
-            
             .front {
                 background-color: #fff;
                 background-size: cover;
@@ -65,14 +59,12 @@
                     40deg,
                     rgba(0, 128, 128, 0.6),
                     rgba(0, 0, 0, 0.4)
-    
                     );
                 }
                 .inner {
                     grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
                     justify-items: center;
                 }
-            
                 h2 {
                     grid-row: 2;
                     margin-bottom: 0.3em;
@@ -82,10 +74,7 @@
                     font-weight: 500;
                     text-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
                 }
-            
-            
             }
-            
             .back {
                 transform: rotateY(180deg);
                 background-color: $secondary-color;
@@ -96,8 +85,6 @@
                     grid-column-gap: 0.8em;
                     justify-items: center;
                 }
-            
-                
                 .description {
                     grid-row: 5;
                     grid-column: 1/-1;
@@ -108,16 +95,16 @@
                     overflow: auto;
                     color: $primary-color;
                     padding-right: 10px;
+                    &>p{
+                        display: flex;
+                        text-align: center;
+                    }
                 }
-            
-                
-            
                 .button {
                     grid-column: 1/-1;
                     justify-self: center;
                 }
             }
-            
             .button {
                 grid-row: -1;
                 text-transform: uppercase;
@@ -136,16 +123,17 @@
                 text-align: center;
                 left: 50%;
                 backface-visibility: hidden;
-                transition: 0.3s ease-in-out;
+                transition: 0.1s ease-in-out;
                 text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-            
+                &>i{
+                    font-style: normal;
+                }
                 &:hover {
                     background-color: $secondary-color;
                     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
                     text-shadow: none;
                     color: $primary-color;
                 }
-            
                 &.return {
                     line-height: 3em;
                     color: $primary-color;
