@@ -15,13 +15,15 @@ function App() {
 				<div className="App__content">
 					<Router>
 						<Switch>
-							<Route path="/portfolio">
-								<Portfolio/>
-							</Route>
 							
 							<Route path="/about">
 								<About/>
 							</Route>
+
+							<Route path="/portfolio">
+								<Portfolio/>
+							</Route>
+							
 
 							<Route path="/">
 								<Home/>

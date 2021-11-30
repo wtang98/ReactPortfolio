@@ -91,3 +91,12 @@
   border-radius: 15px;
   font-size: 17px;
 }
+.hamburgerMenu__links-home {
+  border: 1px solid red;
+}
+.hamburgerMenu__links-portfolio {
+  border: 1px solid red;
+}
+.hamburgerMenu__links-about {
+  border: 1px solid red;
+}
